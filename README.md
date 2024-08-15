@@ -13,3 +13,17 @@ docker build -t etita/scatest .
 docker push etita/scatest
 ```
 
+## Use the above image in GitLab
+
+Add the following step to a GitLab pipeline:
+
+```yaml
+iq_policy_eval:
+  stage: test
+  image: etita/scatest:latest
+  script:
+    - /opt/sonatype/bin/main.sh
+  artifacts:
+    reports:
+      dependency_scanning: sca-report.json
+```
