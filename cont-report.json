@@ -1,0 +1,47 @@
+{
+  "scan": {
+    "analyzer": {
+      "id":  "sonatype-analyzer",
+      "name": "sonatype-analyzer",
+      "version":  "1.180.0",
+      "vendor": {
+        "name": "Sonatype"
+      }
+    },
+    "end_time": "2020-02-14T16:02:59",
+    "start_time": "2020-02-14T16:01:59",
+    "status": "success",
+    "type": "container_scanning",
+    "scanner": {
+      "id":  "sonatype-scanner",
+      "name": "sonatype-scanner",
+      "version":  "1.180.0",
+      "vendor": {
+        "name": "Sonatype"
+      }
+    }
+  },
+  "version": "15.1.5",
+  "vulnerabilities": [
+    {
+      "id": "642735a5-1425-428d-8d4e-3c854885a3c9",
+      "identifiers": [
+        {
+          "type": "cve",
+          "name": "CVE-2024-38374",
+          "value": "CVE-2024-38374"
+        }
+      ],
+      "location": {
+        "dependency": {
+          "package": {
+            "name": "glib2.0"
+          },
+          "version": "2.50.3-2+deb9u1"
+        },
+        "operating_system": "debian:9",
+        "image": "registry.gitlab.com/example/app:latest"
+      }
+    }
+  ]
+}
