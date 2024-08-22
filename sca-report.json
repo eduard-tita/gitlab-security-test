@@ -24,11 +24,21 @@
   "version": "15.1.5",
   "vulnerabilities": [
     {
-      "id": "642735a5-1425-428d-8d4e-3c854885a3c9",
+      "id": "642735a5-1425-428d-8d4e-3c854885a399",
+      "name": "Policy violation found for cyclonedx-core-java",
+      "description": "Policy **High risk CVSS score** is in violation for the following reason(s):\n\n- Found security vulnerability CVE-2024-38374 with severity >= 7 (severity = 7.5)\n- Found security vulnerability CVE-2024-38374 with severity < 9 (severity = 7.5)\n\n**Policy action**: FAIL",
+      "severity": "High",
+      "solution": "Check the [vulnerability details page](https://sonatype.sonatype.app/platform/assets/index.html#/vulnerabilities/CVE-2024-38374) for more details about this issue and possible recommendations.",
       "identifiers": [
+        {
+          "type": "sonatype",
+          "name": "sonatype-id-38379",
+          "value": "38379"
+        },
         {
           "type": "cve",
           "name": "CVE-2024-38374",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38374",
           "value": "CVE-2024-38374"
         }
       ],
@@ -38,7 +48,7 @@
           "package":  {
             "name": "cyclonedx-core-java"
           },
-          "version": "8.0.3"
+          "version": "8.0.4"
         }
       }
     }

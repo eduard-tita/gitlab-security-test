@@ -1,0 +1,338 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:e4b396a9-11b8-4cd8-928e-a508938a48e4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-08-22T16:15:45Z",
+    "tools" : [
+      {
+        "vendor" : "Sonatype Inc.",
+        "name" : "Nexus IQ Server",
+        "version" : "10666"
+      }
+    ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "16646a5e-4ac3-4922-84e7-18a5119be1d2",
+      "group" : "sonatype",
+      "name" : "iq_application_testdata",
+      "version" : "e4b396a911b84cd8928ea508938a48e4",
+      "purl" : "pkg:generic/sonatype/iq_application_testdata@e4b396a911b84cd8928ea508938a48e4"
+    },
+    "properties" : [
+      {
+        "name" : "Scan ID",
+        "value" : "e4b396a911b84cd8928ea508938a48e4"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "9581490b-a15b-4f1e-9f4b-c90fde27c093",
+      "group" : "org.apache.commons",
+      "name" : "commons-lang3",
+      "version" : "3.14.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.14.0?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "Sonatype truncated SHA1",
+          "value" : "1ed471194b02f2c6cb73"
+        },
+        {
+          "name" : "Match State",
+          "value" : "exact"
+        },
+        {
+          "name" : "Identification Source",
+          "value" : "Sonatype"
+        }
+      ],
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "commons-lang3-3.14.0.jar"
+          }
+        ]
+      }
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "55855f4d-68e4-4360-a6e0-5aec449a1417",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.14.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.1?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "Sonatype truncated SHA1",
+          "value" : "268524b9056cae1211b9"
+        },
+        {
+          "name" : "Match State",
+          "value" : "exact"
+        },
+        {
+          "name" : "Identification Source",
+          "value" : "Sonatype"
+        }
+      ],
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "jackson-databind-2.14.1.jar"
+          }
+        ]
+      }
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "9424e0d9-96fc-468f-af27-71a401a7f5b3",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.14.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.1?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "Sonatype truncated SHA1",
+          "value" : "2a6ad504d591a7903ffd"
+        },
+        {
+          "name" : "Match State",
+          "value" : "exact"
+        },
+        {
+          "name" : "Identification Source",
+          "value" : "Sonatype"
+        }
+      ],
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "jackson-annotations-2.14.1.jar"
+          }
+        ]
+      }
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "c84aabe1-618a-4cf7-8e5c-1e32b6fe322e",
+      "group" : "org.apache.commons",
+      "name" : "commons-compress",
+      "version" : "1.26.0",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Public Domain"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "Sonatype truncated SHA1",
+          "value" : "659feffdd12280201c8a"
+        },
+        {
+          "name" : "Match State",
+          "value" : "exact"
+        },
+        {
+          "name" : "Identification Source",
+          "value" : "Sonatype"
+        }
+      ],
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "commons-compress-1.26.0.jar"
+          }
+        ]
+      }
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "7eeba0fe-1929-4f21-b92b-52a583aa7cea",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.14.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "Sonatype truncated SHA1",
+          "value" : "7a07bc535ccf0b7f6929"
+        },
+        {
+          "name" : "Match State",
+          "value" : "exact"
+        },
+        {
+          "name" : "Identification Source",
+          "value" : "Sonatype"
+        }
+      ],
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "jackson-core-2.14.1.jar"
+          }
+        ]
+      }
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "da1d7495-ae7e-4913-85f0-64bd8f25de82",
+      "group" : "commons-io",
+      "name" : "commons-io",
+      "version" : "2.15.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-io/commons-io@2.15.1?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "Sonatype truncated SHA1",
+          "value" : "f11560da189ab563a5c8"
+        },
+        {
+          "name" : "Match State",
+          "value" : "exact"
+        },
+        {
+          "name" : "Identification Source",
+          "value" : "Sonatype"
+        }
+      ],
+      "evidence" : {
+        "occurrences" : [
+          {
+            "location" : "commons-io-2.15.1.jar"
+          }
+        ]
+      }
+    }
+  ],
+  "externalReferences" : [
+    {
+      "type" : "bom",
+      "url" : "https://sonatype.sonatype.app/platform/ui/links/application/testdata/report/e4b396a911b84cd8928ea508938a48e4",
+      "comment" : "IQ Report"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "16646a5e-4ac3-4922-84e7-18a5119be1d2",
+      "dependsOn" : [
+        "55855f4d-68e4-4360-a6e0-5aec449a1417",
+        "c84aabe1-618a-4cf7-8e5c-1e32b6fe322e"
+      ]
+    },
+    {
+      "ref" : "55855f4d-68e4-4360-a6e0-5aec449a1417",
+      "dependsOn" : [
+        "9424e0d9-96fc-468f-af27-71a401a7f5b3",
+        "7eeba0fe-1929-4f21-b92b-52a583aa7cea"
+      ]
+    },
+    {
+      "ref" : "9424e0d9-96fc-468f-af27-71a401a7f5b3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "7eeba0fe-1929-4f21-b92b-52a583aa7cea",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "c84aabe1-618a-4cf7-8e5c-1e32b6fe322e",
+      "dependsOn" : [
+        "da1d7495-ae7e-4913-85f0-64bd8f25de82",
+        "9581490b-a15b-4f1e-9f4b-c90fde27c093"
+      ]
+    },
+    {
+      "ref" : "da1d7495-ae7e-4913-85f0-64bd8f25de82",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "9581490b-a15b-4f1e-9f4b-c90fde27c093",
+      "dependsOn" : [ ]
+    }
+  ],
+  "vulnerabilities" : [
+    {
+      "id" : "sonatype-2022-6438",
+      "source" : {
+        "name" : "SONATYPE",
+        "url" : "https://sonatype.sonatype.app/platform/ui/links/vln/sonatype-2022-6438"
+      },
+      "ratings" : [
+        {
+          "source" : {
+            "name" : "SONATYPE"
+          },
+          "score" : 7.5,
+          "severity" : "critical",
+          "method" : "other",
+          "vector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        400
+      ],
+      "affects" : [
+        {
+          "ref" : "7eeba0fe-1929-4f21-b92b-52a583aa7cea"
+        }
+      ]
+    }
+  ]
+}
