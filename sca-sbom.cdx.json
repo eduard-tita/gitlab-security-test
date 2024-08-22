@@ -24,6 +24,26 @@
       {
         "name" : "Scan ID",
         "value" : "e4b396a911b84cd8928ea508938a48e4"
+      },
+      {
+        "name": "gitlab:meta:schema_version",
+        "value": "1"
+      },
+      {
+        "name": "gitlab:dependency_scanning:input_file:path",
+        "value": "pom.xml"
+      },
+      {
+        "name": "gitlab:dependency_scanning:source_file:path",
+        "value": "pom.xml"
+      },
+      {
+        "name": "gitlab:dependency_scanning:package_manager:name",
+        "value": "maven"
+      },
+      {
+        "name": "gitlab:dependency_scanning:language:name",
+        "value": "Java"
       }
     ]
   },
